@@ -7,3 +7,4 @@
 5. Python Program to Split the array and add the first part to the end. [View](splitrevarray.py)
 6. Python program to swap two elements in a list. [View](elementlswap.py)
 7. Python program to remove Nth occurrence of the given word. [View](rmnthword.py)
+8. Remove multiple elements from a list in Python. [View](rmelist.py)
