@@ -14,3 +14,19 @@ def ugly_check(num):
     else:
         return False
 print(ugly_check(6))
+
+# Function for finding the nth ugly number
+def nth_ugly(n):
+    i = 1
+    # ugly number count
+    counter = 1
+
+    # Looping through all integers until ugly count becomes n
+    while n > counter:
+        i += 1
+        if ugly_check(i):
+            counter += 1
+    return i
+
+no = nth_ugly(15)
+print("15th ugly number is:", no)
