@@ -22,6 +22,15 @@ class LinkedList:
             temp = temp.next
         else:
             return False
+        
+    def delete_node(self, data):
+        temp = self.head
+        while temp is not None:
+            if temp.data == data:
+                break
+            prev = temp
+            temp = temp.next
+        prev.next = temp.next
 
 family = LinkedList()
 family.head = Node("Bob")
@@ -34,5 +43,6 @@ wife.next = first_kid
 first_kid.next = second_kid
 
 family.insert_new_header("Dave")
+family.delete_node("Amy")
 family.traversal()
-print(family.search("Bob"))
+# print(family.search("Bob"))
