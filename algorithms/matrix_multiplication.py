@@ -1,7 +1,7 @@
 # Naive method: Multiplying two matrices using nested loops
 
 X = [[1, 2],
-     [3, 4]]
+     [2, 3]]
 
 Y = [[2, 3],
      [3, 4]]
