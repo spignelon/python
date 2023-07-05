@@ -1,5 +1,5 @@
 # Python
-Python assignments and practicals
+Python practice, assignments and practicals
 
 ---
 
